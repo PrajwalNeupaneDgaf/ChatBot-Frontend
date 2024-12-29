@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create an Axios instance with a custom configuration
 const api = axios.create({
   //baseURL: 'http://localhost:8080/api/',
-  baseURL: 'https://chatbot-backend-v6m5.onrender.com//api/',
+  baseURL: 'https://chatbot-backend-v6m5.onrender.com/api/',
   headers: {
     'Content-Type': 'application/json',
   },
